@@ -224,7 +224,7 @@ export default function ArticlePage() {
                     ? 'Izohingizni yozing...'
                     : 'Напишите свой комментарий...'
                 }
-                className="w-full p-3 border border-black/20 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 min-h-[100px]"
+                className="w-full p-3 border border-black/20 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 min-h-25"
                 rows={3}
               />
               <button
