@@ -42,9 +42,9 @@ export function NewspaperSection({
               <Link
                 key={paper.id}
                 href={`/newspapers/${paper.id}`}
-                className="flex-shrink-0 w-48 group"
+                className="shrink-0 w-48 group"
               >
-                <div className="relative mb-3 bg-gray-100 aspect-[3/4] overflow-hidden">
+                <div className="relative mb-3 bg-gray-100 aspect-3/4 overflow-hidden">
                   {failedImages.has(paper.id) ? (
                     <div className="w-full h-full flex flex-col items-center justify-center text-gray-400 p-4 text-center border border-gray-200">
                       <FileQuestion className="w-8 h-8 mb-2 opacity-50" />
